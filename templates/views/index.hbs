@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naoyuki Arakawa</title>
+    <link rel="icon" href="/img/icon.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+
+        <div class="intro-message-box">
+            <h1>Hi, I'm Naoyuki! &lt/&gt </h1>
+            <p>I am an enthuastic <b id='accent'>Javascript Developer</b>, with a former background with customer
+                service
+                and
+                project coordination in IT.</p>
+        </div>
+
+        <div class="intro-sub-box">
+            <div class='favorites intro-sub-child'>
+                <h3>Favorites</h3>
+                {{!-- icons --}}
+                <p class='icons'> &#x1F363 &#x2615 &#x1F4F7</p>
+            </div>
+
+            <div class='skills intro-sub-child'>
+                <h3>Skills</h3>
+
+                <div class='skills-icons-box'>
+                    <span> <img src='/img/skill_logos.png'></span>
+                    <span> <img src='/img/nodejs_logo.png'></span>
+                    <span> <img src='/img/postman.png'></span>
+                </div>
+            </div>
+
+            <div class='languages intro-sub-child'>
+                <h3>Languages</h3>
+                <div class='language-box'>
+                    {{!-- icons --}}
+                    <span>NL </span>
+                    <span>EN </span>
+                    <span>JP </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="socialmedia">
+            <a href="https://github.com/NaoyukiArakawa"><img src="/img/github_logo.png"></a>
+            <a href="https://www.linkedin.com/in/naoyuki-arakawa/"><img src="/img/linkedin_logo.png"></a>
+        </div>
+        <p> Copyright: {{ name }} {{ currentYear }}</p>
+    </footer>
+
+</body>
+
+</html>
